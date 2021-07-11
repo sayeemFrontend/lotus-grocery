@@ -1,0 +1,19 @@
+.itemCart{
+  position: relative;
+  cursor: pointer;
+}
+.itemCart span{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  right: -10px;
+
+}
+.itemCart img{
+  width: 30px;
+}

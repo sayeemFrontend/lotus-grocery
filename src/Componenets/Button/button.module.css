@@ -1,0 +1,33 @@
+
+.customButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+  
+}
+.customButton button {
+  width: 100%;
+  border:inherit;
+  border-radius: inherit;
+  padding: 0px 14px;
+  background-color:inherit;
+  color: inherit;
+  height: inherit;
+}
+.customButton button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.customButton button:hover {
+  opacity: .7;
+}
+
+.customButton button:active:focus {
+  box-shadow: none;
+}
+
+/* .customButton button > span {
+  margin-right: 5px;
+} */

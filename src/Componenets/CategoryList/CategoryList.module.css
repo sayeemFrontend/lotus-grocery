@@ -1,0 +1,42 @@
+
+.listContainer {
+  top: 88px;
+  left: 30px;
+  position: fixed;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Work Sans';
+  color: #41404b;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.listItem:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+.listContainer a {
+  text-decoration: none !important;
+}
+.listItem img {
+  height: 20px;
+}
+.subListContainer {
+  margin: 0px 20px;
+}
+
+/* rotate icon */
+
+.listItem svg {
+  font-size: 12px;
+  transition: all 0.25s ease;
+}
+.listItem .rotate svg {
+  transform: rotate(180deg);
+}
+

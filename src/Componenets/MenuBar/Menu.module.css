@@ -1,0 +1,35 @@
+.menuBarContainer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Work Sans';
+}
+
+.menuBar .menuItem{
+    display: flex;
+    align-items: center;
+}
+.menuBar p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.menuBar svg{
+    font-size: 12px;
+    display: inherit;
+}
+.menuBar div> span:last-child{
+    cursor: pointer;
+}
+
+ .arrow svg{
+    transition: all 0.25s ease
+}
+.rotate svg{
+    transform: rotate(180deg);
+}

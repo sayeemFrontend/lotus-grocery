@@ -1,0 +1,56 @@
+.sidebar {
+  height: calc(100vh - 55px);
+  width: 300px;
+  background: white;
+}
+.sideNavLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  object-fit: contain;
+  border-bottom: 1px solid #e6e6e6;
+}
+.sideNavLogo img {
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.listContainer {
+  padding: 10px 15px;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #41404b;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.listItem:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+.listContainer a {
+  text-decoration: none !important;
+}
+.listItem img {
+  height: 20px;
+}
+.subListContainer {
+  margin: 0px 20px;
+}
+
+/* rotate icon */
+
+.listItem svg {
+  transition: all 0.25s ease;
+}
+.listItem .rotate svg {
+  transform: rotate(180deg);
+}
+
+/* padding-left: 10px */

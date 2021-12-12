@@ -1,0 +1,26 @@
+.customBtn {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #219653;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customBtn .checkmark {
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-color: #219653;
+  border-radius: 50%;
+  display: none;
+  margin: auto;
+}
+
+.customBtn input {
+  display: none;
+}
+
+.customBtn input:checked + .checkmark {
+  display: inline-block;
+}

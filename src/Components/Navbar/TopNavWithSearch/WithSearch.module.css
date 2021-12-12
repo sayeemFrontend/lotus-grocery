@@ -1,0 +1,47 @@
+.topnav {
+  background: #219653;
+}
+.navbar {
+  height: 60px;
+}
+.drawer_btn {
+  background: transparent;
+  border-style: none;
+}
+.drawer_btn img {
+  width: 30px;
+  height: 30px;
+}
+.logo {
+  height: 39px;
+  margin-left: 50px;
+  object-fit: contain;
+}
+
+.search_bar {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.user_log {
+  height: 40px;
+  text-decoration: none;
+}
+.user_log img {
+  height: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.user_log p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.profileModal {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+}

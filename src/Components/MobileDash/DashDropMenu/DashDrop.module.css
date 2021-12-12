@@ -1,0 +1,63 @@
+.selectedInput {
+  position: relative;
+  font-size: 12px;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  overflow: hidden;
+  border-radius: 6px;
+  padding: 6px 10px 6px 25px;
+}
+.inputContainer input {
+  background: transparent;
+  color: #219653;
+  font-size: 19px;
+}
+.inputContainer input::placeholder {
+  color: #219653;
+  font-weight: 500;
+}
+
+.inputContainer svg {
+  transition: all 0.25s ease;
+  color: #219653;
+  font-size: 19px;
+  cursor: pointer;
+}
+.inputContainer.rotate svg {
+  transform: rotate(180deg);
+}
+
+.inputContainer input {
+  border: none;
+  width: 100%;
+}
+
+.inputContainer input:focus {
+  outline: none;
+}
+.DashContainer {
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  border-radius: 10px;
+  background: #4f4f4f;
+  margin-top: 10px;
+}
+.DashContainer li {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 6px 10px 6px 30px;
+}
+.DashContainer li:hover {
+  color: red;
+  background-color: white;
+}
+
+.modalPosition li:not(:last-child) {
+  border-bottom: 1px solid #ffffff;
+}

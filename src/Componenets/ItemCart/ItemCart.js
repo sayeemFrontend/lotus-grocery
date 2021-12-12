@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import classes from "./ItemCart.module.css"
+import cartIcon from "./.../../../../../src/Asset/cartIcon.png"
+
 // import CartIcon from "/Asset/cartIcon.png"
 // import { useHistory } from "react-router-dom"
 
@@ -16,7 +18,7 @@ const ItemCart = () => {
    return (
       <div className={classes.itemCart}>
          <span className="bgSecondary-1 cWhite fs-12 fw-500 ">3</span>
-         <img src="/Asset/cartIcon.png" alt="cart-icon" />
+         <img src={cartIcon} alt="cart-icon" />
       </div>
    )
 }

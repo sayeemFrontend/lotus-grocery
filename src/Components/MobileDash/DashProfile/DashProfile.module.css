@@ -1,0 +1,27 @@
+.DashProfile {
+  background: #4f4f4f;
+  padding: 15px;
+  border-radius: 15px;
+}
+.Profile {
+  background: #353535;
+  padding: 15px;
+  border-radius: 15px;
+}
+.DashInfo1 {
+  color: #c8c8c8;
+}
+.DashInfo2 {
+  font-size: 10px;
+  color: #c8c8c8;
+}
+.ImgBorder {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+.ImgBorder img {
+  height: 90px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 4px solid #353535;
+}

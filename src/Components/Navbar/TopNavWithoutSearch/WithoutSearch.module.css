@@ -1,0 +1,46 @@
+.topnav {
+  background: #219653;
+}
+.profileModal {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+}
+.navbar {
+  height: 60px;
+}
+.drawer_btn {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border-style: none;
+}
+.drawer_btn img {
+  width: 30px;
+  height: 30px;
+}
+.logo {
+  height: 39px;
+  object-fit: contain;
+}
+
+.user_log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.user_log img {
+  height: 25px;
+  object-fit: contain;
+}
+.user_log p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}

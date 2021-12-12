@@ -1,0 +1,41 @@
+
+.customBody {
+  display: flex;
+  margin-top: 75px;
+}
+
+.sidebarStyle {
+  position: fixed;
+  top: 90px;
+  z-index: 1;
+  transition: all 0.1s linear;
+}
+.showSidebar {
+  left: 0;
+}
+
+.hideSidebar {
+  left: -310px;
+}
+.mainScreen {
+  width: 100%;
+  margin: 0;
+  transition: all 0.1s linear;
+}
+.push {
+  padding-left: 300px;
+  transition: all 0.1s linear;
+  width: 100%;
+}
+.topbars{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .ShowCard {
+    display: none;
+  }
+}

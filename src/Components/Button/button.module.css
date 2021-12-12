@@ -1,0 +1,24 @@
+.customButton button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 14px;
+  background-color: #219653;
+  color: #ffffff;
+}
+.customButton button:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.customButton button:hover {
+  background-color: #137c41;
+}
+
+.customButton button:active:focus {
+  box-shadow: none;
+}
+
+.customButton button > span {
+  margin-right: 5px;
+}
